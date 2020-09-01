@@ -1,6 +1,8 @@
 
 # "Dummy Switches and Contact" Plugin
 
+Based on https://github.com/NorthernMan54/homebridge-dummy-contact. Adds option to choose between binary switch or dimmable lightbulb.
+
 Example config.json:
 
 ```
