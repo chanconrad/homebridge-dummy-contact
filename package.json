@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-dummy-contact",
+  "name": "homebridge-dummy-switch",
   "version": "0.3.3",
   "description": "Dummy switches for Homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
