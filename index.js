@@ -23,7 +23,7 @@ function DummySwitch(log, config) {
   } else {
     this._service = new Service.Switch(this.name);
   }
-  this._contact = new Service.ContactSensor(this.name);
+  this._contact = new Service.ContactSensor(this.name.concat(' (contact)'));
 
   this.cacheDirectory = HomebridgeAPI.user.persistPath();
   this.storage = require('node-persist');
